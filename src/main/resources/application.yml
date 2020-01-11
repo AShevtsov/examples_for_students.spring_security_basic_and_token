@@ -1,0 +1,8 @@
+security.jwt.token:
+    secret-key: very-long-secret-key-to-avoid-problems-with-jwt-security-lib
+    expire-length: 3600000 #one hour
+
+logging:
+    level:
+        com.students: TRACE
+        org.springframework.security: TRACE
